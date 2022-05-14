@@ -89,6 +89,99 @@
  * --------------------------------------------
  * class #07
  * ----------------------------------------------
- * JavaScript Variables
- * 
- */
+ * JavaScript Let
+ * Variables defined with let cannot be Redeclared.
+ * Variables defined with let must be Declared before use.
+ * Variables defined with let have Block Scope.
+
+*/
+
+// var x = 5;
+// function sleep() {  
+
+
+// }
+// sleep()
+
+// let x = 7;
+// if (true) {
+//    let x = 6;
+//    console.log(x);
+   
+// }
+// console.log(x);
+
+// carName = "Aminul" 
+// var carName;
+// console.log(carName);
+
+
+/**-
+ * --------------------------------------------
+ * class #08
+ * ----------------------------------------------
+ * JavaScript const
+ * Variables defined with const cannot be Redeclared.
+ * Variables defined with const cannot be Reassigned.
+ * Variables defined with const have Block Scope.
+
+*/
+// const PI = 3.14159265359; 
+
+// console.log(PI);
+
+/**-
+ * --------------------------------------------
+ * class #09
+ * ----------------------------------------------
+ * JavaScript Operators
+ *
+*/
+
+// let x = 5;
+// let y = 2;
+// let z = x * y;
+
+// console.log(z);
+
+// let x = 10;
+// x *= 3;
+// console.log(x);
+
+
+// let text1 = "Aminul";
+// let text2 = "Islam";
+// let text3 = text1 +" "+ text2;
+
+// console.log(text3);
+
+
+// let x = 5 + 5;
+// let y = "5" + 5;
+// let z = 5 + "Hello";
+
+// console.log(typeof(z));
+
+
+/**-
+ * --------------------------------------------
+ * Class #10
+ * ----------------------------------------------
+ * JavaScript Assignment
+ *
+*/
+
+// let x = 10;
+// x += 5; 
+// console.log(x);
+
+let x = 10;
+let y = 5;
+x = x - y;
+
+ console.log(x);
+
+
+
+
+
