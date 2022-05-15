@@ -175,13 +175,34 @@
 // x += 5; 
 // console.log(x);
 
-let x = 10;
-let y = 5;
-x = x - y;
+// let x = 10;
+// let y = 5;
+// x = x - y;
 
- console.log(x);
+//  console.log(x);
 
 
+/**-
+ * --------------------------------------------
+ * Class #11
+ * ----------------------------------------------
+ * JavaScript Data Types
+ *
+*/
+
+// let x = 16 + 4 + "Volvo";
+
+// let x = "Volvo" + 16 + 4;
+// let answer1 = "It's alright";
+// let answer2 = "He is called 'Johnny'"; 
+// let answer3 = 'He is called "Johnny"';
+
+
+
+// let x = 5;
+// let y = 5;
+// let z = 6;
+//  console.log(x == z);
 
 
 
