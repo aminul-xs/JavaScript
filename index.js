@@ -202,7 +202,35 @@
 // let x = 5;
 // let y = 5;
 // let z = 6;
-//  console.log(x == z);
+//  console.log(typeof(x == z));
 
 
+// let x;
+// x = 5;
+// x = 'Aminul Islam'
 
+// console.log(x);
+
+// let x = 5;
+// let y = 6;
+// let z = 7;
+
+// let myObject = {x:5, y:6, z:7};
+
+// console.log(myObject);
+
+/**-
+ * --------------------------------------------
+ * Class #12
+ * ----------------------------------------------
+ * JavaScript Functions
+ *
+*/
+
+function sleep(name){
+   console.log(name + " is sleeping form in 10 PM");
+}
+
+sleep("Aminul");
+sleep("Amina");
+sleep("Farhan");
