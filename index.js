@@ -227,10 +227,11 @@
  *
 */
 
-function sleep(name){
-   console.log(name + " is sleeping form in 10 PM");
+
+function sleep(name, time){
+   console.log(name + " is sleeping form in " + time);
 }
 
-sleep("Aminul");
-sleep("Amina");
-sleep("Farhan");
+sleep("Aminul", "10PM");
+sleep("Amina", "11PM");
+sleep("Farhan", "12PM");
