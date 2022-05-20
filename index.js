@@ -1,236 +1,131 @@
-// var hello = "I Love Bangladesh";
-// console.log(hello);
-
-/**
- * --------------------------------------------
- * class #2
- * ----------------------------------------------
- * JavaScript Output
- */
-
-/**
- *
- * Writing into an HTML element, using innerHTML.
- * Writing into the HTML output using document.write().
- * Writing into an alert box, using window.alert().
- * Writing into the browser console, using console.log().
- *
- */
-
-//  console.log("Hello world");
-
-/**
- * --------------------------------------------
- * class #3
- * ----------------------------------------------
- * JavaScript Statements
- */
-
-/**
- * Values, Operators, Expressions, Keywords, and Comments.
- * for example:
- * document.getElementById("demo").innerHTML = "Hello Dolly.";
- *
- */
-
-//JavaScript Code Blocks
-
-// function myFunction() {
-//    document.getElementById("demo1").innerHTML = "Hello Dolly";
-//    document.getElementById("demo2").innerHTML = "How are you?";
-// }
-
-/**-
- * --------------------------------------------
- * class #04
- * ----------------------------------------------
- * JavaScript Syntax
- * JavaScript Expression
- */
-
-// var x;
-// let y = "Hello";
-// console.log(y);
-
-// An expression is a combination of values, variables, and operators, which computes to a value.
-// For example, 5 * 10 evaluates to 50:
-
-
-
-/**-
- * --------------------------------------------
- * class #05
- * ----------------------------------------------
- * JavaScript Comments
- * 
- */
- //Any text between // and the end of the line will be ignored by JavaScript (will not be executed).
-
-
-
-/**-
- * --------------------------------------------
- * class #06
- * ----------------------------------------------
- * JavaScript Variables
- * 
- */
-
-
-// for example, in JavaScript variables.
-// var x = 5;
-// var y = 6;
-
-// var z = x + y;
-
-// console.log(z);
-
-/**-
- * --------------------------------------------
- * class #07
- * ----------------------------------------------
- * JavaScript Let
- * Variables defined with let cannot be Redeclared.
- * Variables defined with let must be Declared before use.
- * Variables defined with let have Block Scope.
-
-*/
-
-// var x = 5;
-// function sleep() {  
-
-
-// }
-// sleep()
-
-// let x = 7;
-// if (true) {
-//    let x = 6;
-//    console.log(x);
-   
-// }
-// console.log(x);
-
-// carName = "Aminul" 
-// var carName;
-// console.log(carName);
-
-
-/**-
- * --------------------------------------------
- * class #08
- * ----------------------------------------------
- * JavaScript const
- * Variables defined with const cannot be Redeclared.
- * Variables defined with const cannot be Reassigned.
- * Variables defined with const have Block Scope.
-
-*/
-// const PI = 3.14159265359; 
-
-// console.log(PI);
-
-/**-
- * --------------------------------------------
- * class #09
- * ----------------------------------------------
- * JavaScript Operators
- *
-*/
-
-// let x = 5;
-// let y = 2;
-// let z = x * y;
-
-// console.log(z);
-
-// let x = 10;
-// x *= 3;
-// console.log(x);
-
-
-// let text1 = "Aminul";
-// let text2 = "Islam";
-// let text3 = text1 +" "+ text2;
-
-// console.log(text3);
-
-
-// let x = 5 + 5;
-// let y = "5" + 5;
-// let z = 5 + "Hello";
-
-// console.log(typeof(z));
-
-
-/**-
- * --------------------------------------------
- * Class #10
- * ----------------------------------------------
- * JavaScript Assignment
- *
-*/
-
-// let x = 10;
-// x += 5; 
-// console.log(x);
-
-// let x = 10;
-// let y = 5;
-// x = x - y;
-
-//  console.log(x);
-
-
-/**-
- * --------------------------------------------
- * Class #11
- * ----------------------------------------------
- * JavaScript Data Types
- *
-*/
-
-// let x = 16 + 4 + "Volvo";
-
-// let x = "Volvo" + 16 + 4;
-// let answer1 = "It's alright";
-// let answer2 = "He is called 'Johnny'"; 
-// let answer3 = 'He is called "Johnny"';
-
-
-
-// let x = 5;
-// let y = 5;
-// let z = 6;
-//  console.log(typeof(x == z));
-
-
-// let x;
-// x = 5;
-// x = 'Aminul Islam'
-
-// console.log(x);
-
-// let x = 5;
-// let y = 6;
-// let z = 7;
-
-// let myObject = {x:5, y:6, z:7};
-
-// console.log(myObject);
-
 /**-
  * --------------------------------------------
  * Class #12
  * ----------------------------------------------
  * JavaScript Functions
  *
-*/
+ */
 
-function sleep(name){
-   console.log(name + " is sleeping form in 10 PM");
-}
+// function sleep(name){
+//    console.log(name + " is sleeping form in 10 PM");
+// }
 
-sleep("Aminul");
-sleep("Amina");
-sleep("Farhan");
+// sleep("Aminul");
+// sleep("Amina");
+// sleep("Farhan");
+
+// function myFunction(a, b){
+//    return a * b;
+// }
+// let x = myFunction(4, 4);
+
+// console.log(x);
+
+// function myFunction(){
+//    let carName = "Volvo";
+//    console.log(carName);
+// }
+
+// myFunction();
+// console.log(carName);
+
+/**-
+ * --------------------------------------------
+ * Class #13
+ * ----------------------------------------------
+ * JavaScript Objects
+ *
+ */
+// const car ={
+//    name: "Fiat",
+//    model: 500,
+//    weight: "550kg",
+//    color: "white",
+//    start: function () {
+//       this.drive();
+//       console.log("car has started");
+//    },
+//    drive: function () {
+//       console.log("car is driveing");
+//    },
+// };
+
+// console.log(car["weight"]);
+// car.start()
+
+// let x = 5;
+// let z = new Number(5);
+
+// console.log(typeof(x));
+// console.log(typeof(z));
+
+/**-
+ * --------------------------------------------
+ * Class #14
+ * ----------------------------------------------
+ * JavaScript Events
+ *
+ */
+
+// function showDate() {
+//    document.getElementById("date").innerHTML = Date()
+// }
+// console.log(showDate());
+
+/**-
+ * --------------------------------------------
+ * Class #15
+ * ----------------------------------------------
+ * JavaScript Strings
+ *
+ */
+
+// let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+// let length = text.length;
+// console.log(length);
+
+// let text = "Aminul Is Good Parsion \"Hello\" Amina Alom";
+// console.log(text);
+
+// let a = "John";
+// let z = new String("John")
+// let x = new String("John")
+
+// console.log(typeof x);
+
+// //Comparing two JavaScript objects always returns false.
+// console.log( x == z);
+
+/**-
+ * --------------------------------------------
+ * Class #16
+ * ----------------------------------------------
+ * JavaScript String Methods
+ *
+ */
+
+// let  x = "Apple, Banana, Kiwi";
+
+// let z = x.slice(7, 13);
+// console.log(z);
+
+// let amina = "I love Amina";
+// let aminaAlom = amina.replace("Amina", "Amina Alom");
+
+// console.log(aminaAlom);
+
+// let text1 = "Hello";
+// let text2 = "World";
+// let text3 = text1.concat(" ", text2);
+// console.log(text3);
+
+/**-
+ * --------------------------------------------
+ * Class #16
+ * ----------------------------------------------
+ * JavaScript Search Methods
+ *
+ */
+let str = "Please locate where 'locate' occurs!";
+let z = str.lastIndexOf("!");
+console.log(z);
