@@ -98,7 +98,7 @@
 
 /**-
  * --------------------------------------------
- * Class #16
+ * Class #17
  * ----------------------------------------------
  * JavaScript String Methods
  *
@@ -121,11 +121,28 @@
 
 /**-
  * --------------------------------------------
- * Class #16
+ * Class #18
  * ----------------------------------------------
- * JavaScript Search Methods
+ * JavaScript String Search
  *
  */
-let str = "Please locate where 'locate' occurs!";
-let z = str.lastIndexOf("!");
-console.log(z);
+// let str = "Please locate where 'locate' occurs!";
+// let z = str.lastIndexOf("!");
+// console.log(z);
+
+
+/**-
+ * --------------------------------------------
+ * Class #19
+ * ----------------------------------------------
+ * JavaScript Template Literals
+ *
+ */
+
+let country = "Bangladesh";
+
+let sentence = `I love ${country} and It's big country in ${country}`
+
+console.log(sentence);
+
+
