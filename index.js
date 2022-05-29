@@ -98,7 +98,7 @@
 
 /**-
  * --------------------------------------------
- * Class #17
+ * Class #16
  * ----------------------------------------------
  * JavaScript String Methods
  *
@@ -121,7 +121,7 @@
 
 /**-
  * --------------------------------------------
- * Class #18
+ * Class #17
  * ----------------------------------------------
  * JavaScript String Search
  *
@@ -133,23 +133,49 @@
 
 /**-
  * --------------------------------------------
- * Class #19
+ * Class #18
  * ----------------------------------------------
  * JavaScript Template Literals
  *
  */
 
-let country = "Bangladesh";
+// let country = "Bangladesh";
 
-let sentence = `I love ${country} and It's big country in ${country}`
+// let sentence = `I love ${country} and It's big country in ${country}`
 
-console.log(sentence);
+// console.log(sentence);
 
 
-function sleep(name, time){
-   console.log(name + " is sleeping form in " + time);
-}
+/**-
+ * --------------------------------------------
+ * Class #18
+ * ----------------------------------------------
+ * JavaScript Numbers
+ *
+ */
 
-sleep("Aminul", "10PM");
-sleep("Amina", "11PM");
-sleep("Farhan", "12PM");
+//  let x = 123e5
+//  console.log( typeof(x));
+
+// let x = 0.2 + 0.10;
+
+// console.log(x);
+
+// let x = 10;
+// let y = 20;
+// let z = "Hello Bangladesh";
+// let result = (x + y) + z;
+
+// console.log(result);
+
+// let x = 10;
+// let y = "10";
+// let result = x * y;
+
+// if (x = y) {
+//    console.log("Result is erorr");
+// } else {
+//    console.log(result);
+// }
+
+
