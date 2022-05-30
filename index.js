@@ -177,5 +177,29 @@
 // } else {
 //    console.log(result);
 // }
+// https://www.bdtechcenter.com/2021/12/blog-post.html
 
+/**-
+ * --------------------------------------------
+ * Class #19
+ * ----------------------------------------------
+ * JJavaScript Number Methods
+ *
+ */
+
+
+
+// let x = 9.656;
+// // x.toExponential(2);
+// // x.toExponential(4);
+// let y = x.toExponential(3);
+
+// console.log(y);
+
+// let x = 9.656;
+// console.log(x.toFixed(0)); 
+// console.log(x.toFixed(2)); 
+// console.log(x.toFixed(3)); 
+// console.log(x.toFixed(4)); 
+// console.log(x.toFixed(5)); 
 
