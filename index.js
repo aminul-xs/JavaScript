@@ -130,7 +130,6 @@
 // let z = str.lastIndexOf("!");
 // console.log(z);
 
-
 /**-
  * --------------------------------------------
  * Class #18
@@ -144,7 +143,6 @@
 // let sentence = `I love ${country} and It's big country in ${country}`
 
 // console.log(sentence);
-
 
 /**-
  * --------------------------------------------
@@ -187,22 +185,224 @@
  *
  */
 
-
-
 // let x = 9.656;
 // // x.toExponential(2);
 // // x.toExponential(4);
 // let y = x.toExponential(3);
 
-// console.log(y);
+// let x = 123;
+// let z = x.toString();
+// console.log(typeof z);
 
 // let x = 9.656;
-// console.log(x.toFixed(0)); 
-// console.log(x.toFixed(2)); 
-// console.log(x.toFixed(3)); 
-// console.log(x.toFixed(4)); 
-// console.log(x.toFixed(5)); 
+// console.log(x.toFixed(0));
+// console.log(x.toFixed(2));
+// console.log(x.toFixed(3));
+// console.log(x.toFixed(4));
+// console.log(x.toFixed(5));
+
+// let x = 9.656;
+
+// console.log(x.toPrecision());
+// console.log(x.toPrecision(2));
+// console.log(x.toPrecision(3));
+// console.log(x.toPrecision(4));
+
+// let x = new Date("2000-01-01");
+// console.log(Number(x));
+// console.log(typeof x);
+
+// let x = Number.MAX_VALUE;
+// let z = Number.MIN_VALUE;
+// console.log(x);
+// console.log(z);
+
+/**-
+ * --------------------------------------------
+ * Class #20
+ * ----------------------------------------------
+ * JavaScript Arrays
+ *
+ */
+
+//  const cars = [
+//    "Saab",
+//    "Volvo",
+//    "BMW"
+//  ];
+
+//  console.log(cars);
+
+// const cars = [];
+
+// cars[0] = "Saab";
+// cars[1] = "Volvo";
+// cars[2] = "BMW";
+
+// console.log(cars[1]);
+
+// const cars = ["Saab", "Volvo", "BMW"];
+// cars[0] = "Opel";
+// document.getElementById("demo").innerHTML = cars;
+// console.log(cars);
+
+// const person = ["Aminul", "Islam", 24];
+
+// console.log(person.length);
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// let word = fruits.length;
+// console.log(word);
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// fruits[5] = "Pineapple";
+// console.log(fruits[fruits.length -1]);
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+// for (i = 0; i < fruits.length; i++ ) {
+//    console.log(i);
+//    console.log(fruits[i]);
+// }
+// function myFunction(value){
+// console.log(value);
+
+// }
+
+// fruits.forEach(myFunction);
+
+// fruits.push("Hello")
+// fruits[fruits.length] = "lemon"
+
+// console.log(fruits);
+
+// const person = [];
+// person["firstName"] = "John";
+// person["lastName"] = "Doe";
+// person["age"] = 46;
+
+// console.log(person);
+
+// let = numbers = [1, 2, 3] 
+// let = person = {name: "Aminul", age: 24}
+
+// console.log(numbers);
+// console.log(Array.isArray(numbers));
+
+// console.log(numbers instanceof Array);
+
+/**-
+ * --------------------------------------------
+ * Class #21
+ * ----------------------------------------------
+ * JavaScript Array Methods 
+ *
+ */
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+// console.log(fruits.toString());
+// console.log(typeof(fruits.join(" ")));
+// let a = fruits.pop()
+// console.log(a);
+// fruits.push("Pineapple")
+// console.log(fruits);
+
+// console.log(fruits.shift());
+// console.log(fruits);
+
+
+// console.log(fruits.unshift("Pineapple"));
+// console.log(fruits);
+// delete fruits[0]
+// console.log(fruits);
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// const myFruits = ["Pineapple", "Strawberry"]
+// fruits.splice(0, 0, "Pineapple", "Strawberry")
+// console.log(fruits);
+
+
+// console.log(fruits.concat(myFruits));
+// console.log(fruits);
+// console.log(myFruits);
+
+
+// const fruits2 = fruits.concat(myFruits)
+// const citrus = fruits2.slice(1, 3);
+// console.log(citrus);
 
 
 
 
+/**-
+ * --------------------------------------------
+ * Class #21
+ * ----------------------------------------------
+ * JavaScript Sorting Arrays
+ *
+ */
+
+
+
+
+
+
+// const fruits = ["Banana", "Orange", "Mango"];
+// const myFruits = ["Pineapple", "Strawberry", "Apple"]
+// const result = fruits.concat(myFruits)
+
+
+// const numbers = [30, 50, 10, 12, 59, 36];
+// const fullResult = numbers.sort(function(b, c){
+//    // return c - b
+//    return 0.5 - Math.random()
+// })
+// console.log(fullResult);
+
+
+
+// const numbers = [30, 50, 10, 12, 59, 36];
+// function myFunction(value, index, array) {
+//    console.log(value);
+//    console.log(index);
+//    console.log(array);
+// }
+
+// numbers.forEach(myFunction)
+
+
+// const numbers = [30, 50, 10, 12, 59, 36];
+// function myFunction(value, index, array) {
+//   return value * 2;
+// }
+
+// const theNewNumbers = numbers.map(myFunction)
+// console.log(theNewNumbers);
+
+
+// const numbers = [30, 50, 10, 8, 59, 36];
+// function myFunction(value, index, array) {
+//    if (value > 10) {
+//       return true
+//    }
+// }
+
+// const theNewNumbers =numbers.filter(myFunction)
+// console.log(theNewNumbers);
+
+// const numbers = [30, 50, 10, 12, 59, 36];
+// function myFunction(total, value, index, array) {
+//    return total + value
+// }
+
+//  const theNewNumbers =  numbers.reduceRight(myFunction)
+//  console.log(theNewNumbers);
+
+const numbers = [30, 50, 10, 12, 59, 36];
+function myFunction( value, index, array) {
+  return value > 18;
+}
+
+ const theNewNumbers =  numbers.find(myFunction)
+ console.log(theNewNumbers);
