@@ -337,7 +337,7 @@
 
 /**-
  * --------------------------------------------
- * Class #21
+ * Class #22
  * ----------------------------------------------
  * JavaScript Sorting Arrays
  *
@@ -360,6 +360,14 @@
 // })
 // console.log(fullResult);
 
+
+/**-
+ * --------------------------------------------
+ * Class #23
+ * ----------------------------------------------
+ * JavaScript Array Iteration
+ *
+ */
 
 
 // const numbers = [30, 50, 10, 12, 59, 36];
@@ -399,10 +407,111 @@
 //  const theNewNumbers =  numbers.reduceRight(myFunction)
 //  console.log(theNewNumbers);
 
-const numbers = [30, 50, 10, 12, 59, 36];
-function myFunction( value, index, array) {
-  return value > 18;
-}
 
- const theNewNumbers =  numbers.find(myFunction)
- console.log(theNewNumbers);
+// const numbers = [30, 50, 10, 12, 59, 36];
+// function myFunction( value, index, array) {
+//   return value > 18;
+// }
+
+//  const theNewNumbers =  numbers.find(myFunction)
+//  console.log(theNewNumbers);
+
+
+
+// const numbers = [30, 50, 10, 12, 59, 36];
+
+//  console.log(Array.from("ABCDEFG"));
+
+
+
+/**-
+ * --------------------------------------------
+ * Class #24
+ * ----------------------------------------------
+ * JavaScript date objects
+ *
+ */
+
+//  const a = new Date();
+//  const b = new Date(2018, 11, 24, 10, 33, 30, 0);
+//  const c = new Date(0);
+//  const d = new Date("October 13, 2014 11:13:00");
+
+//  console.log(a);
+//  console.log(b);
+//  console.log(c);
+//  console.log(d);
+
+
+/**-
+ * --------------------------------------------
+ * Class #27
+ * ----------------------------------------------
+ * JavaScript Date Formats
+ *
+ */
+//  const d = new Date("2015-03");
+//  const d = new Date("2015-03-25T12:30:00Z");
+
+
+// let msec = Date.parse("March 21, 2012");
+// const d = new Date(msec);
+// console.log(msec);
+
+
+
+/**-
+ * --------------------------------------------
+ * Class #28
+ * ----------------------------------------------
+ * JavaScript Get Date Methods
+ *
+ */
+
+//  const d = new Date();
+//  const z = d.getDay();
+//  console.log(z);
+
+
+// const months =["January","February","March","April","May","June","July","August","September","October","November","December"];
+
+// const d = new Date();
+// console.log(d);
+// let month = months[d.getMonth()];
+// console.log(month);
+
+
+
+
+/**-
+ * --------------------------------------------
+ * Class #29
+ * ----------------------------------------------
+ * JavaScript Set Date Methods
+ *
+ */
+
+//  const today = new Date();
+//  const someday = new Date();
+//  someday.setFullYear(2023, 0, 14);
+
+//  if (someday > today) {
+//    text = "Today is before January 14, 2100.";
+//    console.log(text);
+//  } else {
+//    text = "Today is after January 14, 2100.";
+//    console.log(text);
+
+//  }
+
+//  console.log(today);
+//  console.log(someday);
+
+
+/**-
+ * --------------------------------------------
+ * Class #30
+ * ----------------------------------------------
+ * JavaScript Set Date Methods
+ *
+ */
