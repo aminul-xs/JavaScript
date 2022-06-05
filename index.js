@@ -512,6 +512,199 @@
  * --------------------------------------------
  * Class #30
  * ----------------------------------------------
- * JavaScript Set Date Methods
+ * JavaScript Math Object
  *
  */
+
+// let m = Math.PI;
+
+
+// console.log(m);
+
+// console.log(Math.E);
+// console.log(Math.SQRT1_2);
+// console.log(Math.SQRT2);
+// console.log(Math.LN2);
+// console.log(Math.LN10);
+// console.log(Math.LOG10E);
+// console.log(Math.LOG2E);
+// console.log(Math.LOG10E);
+
+
+// console.log(Math.round(4.9));
+// console.log(Math.round(4.8));
+// console.log(Math.round(4.8));
+// console.log(Math.round(4.5));
+// console.log(Math.round(4.4));
+// console.log(Math.round(4.3));
+// console.log(Math.round(-4.1));
+
+
+
+// console.log(Math.ceil(4.9));
+// console.log(Math.ceil(4.8));
+// console.log(Math.ceil(4.7));
+// console.log(Math.ceil(4.5));
+// console.log(Math.ceil(4.4));
+// console.log(Math.ceil(4.3));
+// console.log(Math.ceil(4.2));
+// console.log(Math.ceil(-4.1));
+
+
+// console.log(Math.floor(4.9));
+// console.log(Math.floor(4.7));
+// console.log(Math.floor(4.6));
+// console.log(Math.floor(4.5));
+
+// console.log(Math.floor(4.4));
+// console.log(Math.floor(4.3));
+// console.log(Math.floor(4.2));
+
+
+// console.log(Math.random());
+
+/**-
+ * --------------------------------------------
+ * Class #32
+ * ----------------------------------------------
+ * JavaScript boolean
+ *
+ */
+
+// console.log(10> 9);
+
+
+
+/**-
+ * --------------------------------------------
+ * Class #33
+ * ----------------------------------------------
+ * JavaScript Comparison and Logical Operators
+ *
+ */
+
+
+// let z =  6;
+// let x = "6"
+
+// console.log(z === x);
+
+
+// let z =  6;
+// let x = "6"
+
+// console.log(z === x);
+
+
+// let age = 17;
+
+// if (age >= 18) {
+//    console.log('You are adult!');
+// }else{
+//    console.log('You are not adult!');
+// }
+
+
+// let x = 6;
+// let y = 4;
+// let age = 17;
+
+
+// if (age >= 18) {
+//    console.log('You are adult!');
+// }else{
+//    console.log('You are not adult!');
+// }
+
+
+
+// console.log(age >= 18 ? "You are Adult" : "You are not adult");
+
+// let age = "17";
+
+// age = Number(age);
+// if (isNaN(age)) {
+//   voteable = "Input is not a number";
+// } else {
+//   voteable = (age < 18) ? "Too young" : "Old enough";
+// }
+
+// console.log(voteable);
+
+/**-
+ * --------------------------------------------
+ * Class #34
+ * ----------------------------------------------
+ * JavaScript Conditional Statements
+ *
+ */
+
+// let age = "17";
+
+// age = Number(age);
+// if (isNaN(age)) {
+//   voteable = "Input is not a number";
+// } else {
+//   //   voteable = (age < 18) ? "Too young" : "Old enough";
+//    if (age < 18) {
+//       voteable ="Too young";
+//    }else{
+//       voteable = "Old enough";
+//    }
+// }
+
+// console.log(voteable);
+
+
+/**-
+ * --------------------------------------------
+ * Class #34
+ * ----------------------------------------------
+ * JavaScript Switch Statement
+ *
+ */
+
+//  let day;
+// switch (new Date().getDay()) {
+//    case 0:
+//       day = "Sunday";
+//       break;
+//    case 1:
+//       day = "Monday";
+//       break;
+//    case 2:
+//       day = "Tuesday";
+//       break;
+//    case 3:
+//       day = "Wednesday";
+//       break;
+//    case 4:
+//       day = "Thursday";
+//       break; 
+//    case 5:
+//       day = "Friday";
+//       break;
+//    case 6:
+//       day = "Saturday";
+//       break;
+//    default:
+//       day = "Looking forward to the Weekend";
+// }
+// console.log(`Today is ${day}`);
+
+
+/**-
+ * --------------------------------------------
+ * Class #35
+ * ----------------------------------------------
+ * JavaScript For Loop
+ *
+ */
+
+// const  cars = ["A", "B", "C", "D", "E"];
+
+// for(let i = 0; i < cars.length; i++){
+//    text = cars[i] + "\n";
+//   console.log(text);
+// }
+
