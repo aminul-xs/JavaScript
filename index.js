@@ -701,7 +701,7 @@
  *
  */
 
- const  cars = ["A", "B", "C", "D", "E"];
+//  const  cars = ["A", "B", "C", "D", "E"];
 
 // for(let i = 0; i < cars.length; i++){
 //    text = cars[i] + "\n";
@@ -710,22 +710,25 @@
 
 
 
-function howMany(selectObject) {
-   let numberSelected = 0;
-   for (let i = 0; i < selectObject.options.length; i++) {
+// function howMany(selectObject) {
+//    let numberSelected = 0;
+//    for (let i = 0; i < selectObject.options.length; i++) {
      
      
-      if (selectObject.options[i].selected) {
-       numberSelected++;
-     }
-   }
-   return numberSelected;
- }
+//       if (selectObject.options[i].selected) {
+//        numberSelected++;
+//      }
+//    }
+//    return numberSelected;
+//  }
 
- const btn = document.getElementById('btn');
+//  const btn = document.getElementById('btn');
  
-btn.addEventListener('click', () => {
-  const musicTypes = document.selectForm.musicTypes;
-  console.log(`You have selected ${howMany(musicTypes)} option(s).`);
-});
+// btn.addEventListener('click', () => {
+//   const musicTypes = document.selectForm.musicTypes;
+//   console.log(`You have selected ${howMany(musicTypes)} option(s).`);
+// });
 
+let x = 15 * 5;
+debugger;
+console.log();
