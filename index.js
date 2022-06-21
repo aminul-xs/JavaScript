@@ -747,3 +747,94 @@
 
 
 
+
+// const cars = ["A", "B" , "C", "D", "E"];
+
+// for (let i = 0; i < cars.length; i++) {
+//   let element = cars[i];
+ 
+//   console.log(element);
+// }
+
+// console.log("I im done");
+
+// let i = 10;
+
+// for (; ; i--) {
+//    if (i == 1) {
+//       break
+//    }else{
+//       console.log(i);
+//    }
+   
+// }
+// console.log(" HelloBangladesh");
+
+
+/**-
+ * --------------------------------------------
+ * Class #36
+ * ----------------------------------------------
+ * JavaScript For_in Loop
+ *
+ */
+
+// const person = {fname: "Aminul", lname: "Islam", age: 25}
+
+// for (const index in person) {
+
+
+//    console.log(person[index]);
+   
+   
+// }
+
+// let numbers = [1, 12, 2, 4, 5, 6, 7]
+
+// for (const number in numbers) {
+   
+//    console.log(numbers[number]);
+// }
+
+
+
+/**-
+ * --------------------------------------------
+ * Class #37
+ * ----------------------------------------------
+ * JavaScript For_of Loop
+ *
+ */
+// const x = [1, 3, 4, 5, 6, 7, 8]
+
+
+// for (const iterator of x) {
+//    console.log(iterator);
+// }
+
+/**-
+ * --------------------------------------------
+ * Class #38
+ * ----------------------------------------------
+ * JavaScript For_while Loop
+ *
+ */
+
+
+// let i = 0;
+// let text = ""
+// do {
+//    text += "The Number is " + i + "\n";
+//    i++
+// }while(i < 10)
+
+
+// console.log(text);
+
+/**-
+ * --------------------------------------------
+ * Class #39
+ * ----------------------------------------------
+ * JavaScript For_while Loop
+ *
+ */
