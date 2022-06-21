@@ -854,6 +854,111 @@
  
 // for (let i = 0; i < 10; i++) {
 //    if (i === 3) { break; }
-//    text += "The number is " + i + "\n";
+//    text += "The number is " + i + "<br> \n";
 //    console.log(text);
-//  }
+// }
+// document.getElementById("demo").innerHTML = text;
+
+// let text2 = "";
+// for (let i = 0; i < 10; i++) {
+//   if (i === 3) { continue; }
+//   text2 += "The number is " + i + "<br> \n";
+//   console.log(text2);
+// }
+
+
+// document.getElementById("demo").innerHTML = text2;
+
+
+// const cars = ["BMW", "Volvo", "Saab", "Ford"];
+// let text = "";
+
+// list: {
+//   text += cars[0] + "<br> \n"; 
+//   text += cars[1] + "<br> \n"; 
+// break list;
+//   text += cars[2] + "<br> \n"; 
+//   text += cars[3] + "<br> \n"; 
+// }
+// console.log(text);
+
+/**-
+ * --------------------------------------------
+ * Class #41
+ * ----------------------------------------------
+ * JavaScript set
+ *
+ */
+
+//  const letters = new Set(["a","b","c"]);
+
+//  letters.add("d");
+//  letters.add("e");
+//  letters.add("f")
+
+// const a = "Aminul";
+// const b = "Islam";
+// const c = "Amina";
+
+// letters.add(a);
+// letters.add(b);
+// letters.add(c);
+
+//  console.log( letters);
+
+
+
+// let text = "";
+
+// letters.forEach(function(value){
+//    text += value + "\n";
+//    console.log(value);
+// })
+// console.log(text);
+
+
+
+
+// console.log(letters.values());
+
+/**-
+ * --------------------------------------------
+ * Class #42
+ * ----------------------------------------------
+ * JavaScript map
+ *
+ */
+// const fruits = new Map([
+//    ["apples", 300],
+//    ["bananas", 200],
+//    ["Orange", 100]
+// ]);
+
+// const fruits = new Map();
+
+// fruits.set("apples", 300);
+// fruits.set("bananas", 200);
+// fruits.set("oranges", 100);
+
+
+// console.log(fruits.delete("apples"));
+// console.log(fruits.has("apples"));
+// console.log(fruits);
+
+// console.log(fruits.get("oranges"));
+// console.log(fruits.size);
+
+
+
+// fruits.forEach(function(value, key){
+//    console.log(key + " => " + value);
+// })
+
+// let value =""
+
+// for (const iterator of fruits.entries()) {
+//    value += iterator + "<br>";
+   
+// }
+
+// document.getElementById("demo").innerHTML = value.to();
