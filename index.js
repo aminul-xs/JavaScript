@@ -812,6 +812,18 @@
 //    console.log(iterator);
 // }
 
+// const cars = ["BMW", "Volvo", "Mini"];
+// const person = {fname: "Aminul", lname: "Islam", age: 25}
+
+// let language = "JavaScript";
+
+// let text = "";
+// for (let x of cars) {
+// text += x;
+// console.log(x);
+// }
+
+
 /**-
  * --------------------------------------------
  * Class #38
@@ -835,6 +847,13 @@
  * --------------------------------------------
  * Class #39
  * ----------------------------------------------
- * JavaScript For_while Loop
+ * JavaScript break
  *
  */
+//  let text = "";
+ 
+// for (let i = 0; i < 10; i++) {
+//    if (i === 3) { break; }
+//    text += "The number is " + i + "\n";
+//    console.log(text);
+//  }
