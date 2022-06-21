@@ -729,6 +729,21 @@
 //   console.log(`You have selected ${howMany(musicTypes)} option(s).`);
 // });
 
-let x = 15 * 5;
-debugger;
-console.log();
+// let x = 15 * 5;
+// debugger;
+// console.log();
+
+// const months =["January","February","March","April","May","June","July","August","September","October","November","December"];
+
+// for (let index = 0; index < months.length; index++) {
+//    const element = months[index];
+//    console.log(element);
+   
+// }
+
+
+
+
+
+
+
