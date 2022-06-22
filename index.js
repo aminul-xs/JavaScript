@@ -951,6 +951,7 @@
 
 
 // fruits.forEach(function(value, key){
+   
 //    console.log(key + " => " + value);
 // })
 
@@ -962,3 +963,31 @@
 // }
 
 // document.getElementById("demo").innerHTML = value.to();
+
+
+/**-
+ * --------------------------------------------
+ * Class #42
+ * ----------------------------------------------
+ * JavaScript typeof
+ *
+ */
+
+//  typeof "John"                 // Returns "string"
+//  typeof 3.14                   // Returns "number"
+//  typeof NaN                    // Returns "number"
+//  typeof false                  // Returns "boolean"
+//  typeof [1,2,3,4]              // Returns "object"
+//  typeof {name:'John', age:34}  // Returns "object"
+//  typeof new Date()             // Returns "object"
+//  typeof function () {}         // Returns "function"
+//  typeof myCar                  // Returns "undefined" *
+//  typeof null                   // Returns "object"
+
+
+// function isArray(myArray){
+//  console.log(myArray.constructor.toString().indexOf("Array") > -1);
+// }
+
+
+// isArray([1, 2, 4 , 5])
