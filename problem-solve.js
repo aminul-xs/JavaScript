@@ -150,7 +150,81 @@
   
 //    console.log(duplicates);
 
-const btn = document.getElementById("btn")
-btn.addEventListener("click", ()=>{
-   const musicTypes = document.selectForm.musicTypes
-})
+// const btn = document.getElementById("btn")
+// btn.addEventListener("click", ()=>{
+//    const musicTypes = document.selectForm.musicTypes
+// })
+
+
+
+ /**-
+ * --------------------------------------------
+ * Problem Solving #08
+ * ----------------------------------------------
+ * কিভাবে dynamically জাভাস্ক্রিপ্টে প্রেমিক বা বান্ধবী প্রেমময় উত্তর খুঁজে পেতে পারি ?
+ *
+ */
+
+
+// let girlFriendFastName = "x";
+// let girlFriendLastName = "y";
+
+// let boyFriendFastName = "a";
+// let boyFriendLastName = "z";
+
+ 
+// const girlFriendFullName = girlFriendFastName + " " + girlFriendLastName;
+// const boyFriendFullName = boyFriendFastName + " " + boyFriendLastName;
+
+
+
+// const girlFriendFullName = "x";
+// const boyFriendFullName = "y";
+
+// const love = ["I", "LOVE", "YOU"];
+// const noLove = ["I", "DON'T", "LOVE", "YOU"];
+
+
+// // A boyfriend wants the girl to love me and respect the boyfriend a lot
+
+// function boyFriendLoveResult() {
+//    let isProposalSpecial = "";
+//    love.forEach(isProposal);
+
+//    function isProposal(loveResult) {
+//       isProposalSpecial += loveResult + " "; 
+//    }
+
+//    isProposalAccept = isProposalSpecial + boyFriendFullName.toUpperCase();
+//    console.log(isProposalAccept);
+// }
+
+// // A girlfriend wants the boy to leave my life, and remove the boy from life forever.
+
+// function girlFriendLoveResult() {
+//    let isProposalNoSpecial = "";
+//    noLove.forEach(isProposal);
+
+//    function isProposal(loveResult) {
+//       isProposalNoSpecial += loveResult + " "; 
+//    }
+
+//    isProposalRejected = isProposalNoSpecial + girlFriendFullName.toUpperCase();
+//    console.log(isProposalRejected);
+// }
+
+
+// // What can be the condition dynamically?
+// // What could be the dynamic condition of [ if and else]?
+
+// if (boyFriendFullName) {
+
+//    girlFriendLoveResult()
+
+   
+// } else {
+
+//    boyFriendLoveResult()
+
+// }
+

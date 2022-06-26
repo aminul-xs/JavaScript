@@ -967,7 +967,7 @@
 
 /**-
  * --------------------------------------------
- * Class #42
+ * Class #43
  * ----------------------------------------------
  * JavaScript typeof
  *
@@ -991,3 +991,158 @@
 
 
 // isArray([1, 2, 4 , 5])
+
+
+// let a = "Bangladesh"
+// let b = 71;
+
+// let c = a + b;
+
+// console.log(typeof c);
+
+
+
+// let car = "";
+
+
+// console.log(typeof car);
+
+// let person = {fname: "Aminul", lname: "Islam", age: 25};
+// person = null;
+
+// console.log(person);
+
+/**-
+ * --------------------------------------------
+ * Class #44
+ * ----------------------------------------------
+ * JavaScript type conversion 
+ *
+ */
+
+
+// let a = 3.9
+// let b = parseInt(a);
+
+// console.log(b);
+
+// let z = "4";
+
+// let x = +z;
+
+// console.log(typeof x);
+
+
+// console.log(String ( 13 + 39));
+
+// let z = 80e6;
+
+// console.log(z.toExponential());
+
+
+// let a = {name: "Aminul"}
+// console.log( typeof a.toString());
+
+
+
+/**-
+ * --------------------------------------------
+ * Class #45
+ * ----------------------------------------------
+ * JavaScript Bitwise
+ *
+ */
+
+
+//  let x = 5 << 1;
+//  console.log(x);
+
+//  let z = 5 | 1;
+//  console.log(z);
+
+
+
+// function dec2bin(dec){
+//    return (dec >>> 0).toString(2);
+//  }
+
+//  console.log(dec2bin(-5));
+
+
+
+//  function bin2dec(bin){
+//    return parseInt(bin, 2).toString(10);
+//  }
+
+// console.log(bin2dec(101));
+
+/**-
+ * --------------------------------------------
+ * Class #46
+ * ----------------------------------------------
+ * JavaScript Regular Expressions
+ *
+ */
+
+// let text = "Visit W3Schools!";
+// let  x = text.search(/w3Schools/i)
+
+// let result = text.replace(/microsoft/i, "W3Schools")
+
+// let text = `A regular expression is a sequence of characters that forms a search pattern.
+//             When you search for data in a text, you can use this search pattern to describe what you are searching for.
+//             A regular expression can be a single character, or a more complicated pattern.
+//             Regular expressions can be used to perform all types of text search and text replace operations.`;
+
+// let result = text.match(/search/g);
+
+
+// console.log(result);
+
+// // let text = document.getElementById("matching__text").innerHTML;
+// let text = document.getElementById("matching__text");
+// const pattern = /x/;
+// const matching = pattern.test(text);
+
+// // document.getElementById("demo").innerHTML = matching;
+// console.log(matching);
+
+
+// const obj = /!/.exec("The best things in life are free!");
+// const exe = "Found " + obj[0] + " in position " + obj.index + " in the text: " + obj.input;
+
+// document.getElementById("demo").innerHTML = exe;
+
+// console.log(obj);
+// console.log(exe);
+
+
+
+
+
+/**-
+ * --------------------------------------------
+ * Class #47
+ * ----------------------------------------------
+ * JavaScript Errors
+ *
+ */
+
+
+
+
+
+
+
+// try {
+//    adddlert("Welcome guest!");
+//  }
+//  catch(err) {
+//    // console.log(err.message);
+
+//    document.getElementById("demo").innerHTML = err.message;
+//  }
+
+
+
+
