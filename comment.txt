@@ -1,0 +1,7 @@
+1. Comments are necessary to understand the code and increase its readability and maintainability.
+2. Comment are to explain and understand code not an excuse to explain messy code
+3. We should follow the industry standard of documentation.
+4. JsDoc and similar tools are used to document the code. These are helpful to generate dev doc and also to to help create hint in vscode.
+Reference:
+https://stackoverflow.blog/2021/12/23/best-practices-for-writing-code-comments/
+https://jsdoc.app/
