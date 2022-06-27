@@ -51,8 +51,6 @@
 // students.sort();
 // console.log(students);
 
-
-
 /**-
  * --------------------------------------------
  * Problem Solving #03
@@ -71,7 +69,6 @@
 
 // console.log(rollNumber);
 
-
 /**-
  * --------------------------------------------
  * Problem Solving #04
@@ -89,7 +86,6 @@
 // }
 // isLeapYear(2027);
 
-
 /**-
  * --------------------------------------------
  * Problem Solving #05
@@ -103,20 +99,16 @@
 //    // let count = 0;
 //    const letters = Array.from(sentence)
 
-//    letters.forEach(function (value) { 
+//    letters.forEach(function (value) {
 //       if (vowels.includes(value)) {
 //         console.log(value);
-//       }  
+//       }
 //     })
 //    //  return count;
 // }
 
 // let vowelsResult = isCountOfVowels("JavaScript Program to Count the Number of Vowels in a String")
 // // console.log(vowelsResult);
-
-
-
-
 
 /**-
  * --------------------------------------------
@@ -128,14 +120,13 @@
 
 // const numbers = [1, 3, 3, 5 ,4 ,4, 6, 7,8, 10, 40, 40]
 
-// const duplicates = numbers.filter(function (duplicate, index, array) { 
+// const duplicates = numbers.filter(function (duplicate, index, array) {
 //    return array.indexOf(duplicate) !== index;
 //  })
 
 //  console.log(duplicates);
 
-
- /**-
+/**-
  * --------------------------------------------
  * Problem Solving #07
  * ----------------------------------------------
@@ -144,10 +135,10 @@
  */
 //   const numbers = [1, 3, 3, 5 ,4 ,4, 6, 7,8, 10, 40, 40]
 
-//   const duplicates = numbers.filter(function (duplicate, index, array) { 
+//   const duplicates = numbers.filter(function (duplicate, index, array) {
 //      return array.indexOf(duplicate) === index;
 //    })
-  
+
 //    console.log(duplicates);
 
 // const btn = document.getElementById("btn")
@@ -155,9 +146,7 @@
 //    const musicTypes = document.selectForm.musicTypes
 // })
 
-
-
- /**-
+/**-
  * --------------------------------------------
  * Problem Solving #08
  * ----------------------------------------------
@@ -165,66 +154,55 @@
  *
  */
 
-
 // let girlFriendFastName = "x";
 // let girlFriendLastName = "y";
 
 // let boyFriendFastName = "a";
 // let boyFriendLastName = "z";
 
- 
 // const girlFriendFullName = girlFriendFastName + " " + girlFriendLastName;
 // const boyFriendFullName = boyFriendFastName + " " + boyFriendLastName;
 
-
-
-// const girlFriendFullName = "x";
+// const girlFriendFullName = prompt("Helo");
 // const boyFriendFullName = "y";
+// // console.log(girlFriendFullName);
 
 // const love = ["I", "LOVE", "YOU"];
 // const noLove = ["I", "DON'T", "LOVE", "YOU"];
 
-
 // // A boyfriend wants the girl to love me and respect the boyfriend a lot
 
 // function boyFriendLoveResult() {
-//    let isProposalSpecial = "";
-//    love.forEach(isProposal);
+//   let isProposalSpecial = "";
+//   love.forEach(isProposal);
 
-//    function isProposal(loveResult) {
-//       isProposalSpecial += loveResult + " "; 
-//    }
+//   function isProposal(loveResult) {
+//     isProposalSpecial += loveResult + " ";
+//   }
 
-//    isProposalAccept = isProposalSpecial + boyFriendFullName.toUpperCase();
-//    console.log(isProposalAccept);
+//   isProposalAccept = isProposalSpecial + boyFriendFullName.toUpperCase();
+//   console.log(isProposalAccept);
 // }
 
 // // A girlfriend wants the boy to leave my life, and remove the boy from life forever.
 
 // function girlFriendLoveResult() {
-//    let isProposalNoSpecial = "";
-//    noLove.forEach(isProposal);
+//   let isProposalNoSpecial = "";
+//   noLove.forEach(isProposal);
 
-//    function isProposal(loveResult) {
-//       isProposalNoSpecial += loveResult + " "; 
-//    }
+//   function isProposal(loveResult) {
+//     isProposalNoSpecial += loveResult + " ";
+//   }
 
-//    isProposalRejected = isProposalNoSpecial + girlFriendFullName.toUpperCase();
-//    console.log(isProposalRejected);
+//   isProposalRejected = isProposalNoSpecial + girlFriendFullName.toUpperCase();
+//   console.log(isProposalRejected);
 // }
-
 
 // // What can be the condition dynamically?
 // // What could be the dynamic condition of [ if and else]?
 
-// if (boyFriendFullName) {
-
-//    girlFriendLoveResult()
-
-   
+// if (!girlFriendFullName) {
+//   girlFriendLoveResult();
 // } else {
-
-//    boyFriendLoveResult()
-
+//   console.log(boyFriendLoveResult());
 // }
-

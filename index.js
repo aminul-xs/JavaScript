@@ -992,6 +992,8 @@
 
 // isArray([1, 2, 4 , 5])
 
+// let car = "Volvo";
+// car = undefined;
 
 // let a = "Bangladesh"
 // let b = 71;
