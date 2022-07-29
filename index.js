@@ -1,3 +1,21 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**-
  * --------------------------------------------
  * Class #12
@@ -1131,20 +1149,168 @@
  */
 
 
-
-
-
-
+// let x = 12;
 
 // try {
-//    adddlert("Welcome guest!");
+//    if (x == "")  throw "Empty";
+//    if (isNaN(x)) throw " mot a number";
+//    x = Number(x);
+//    if(x < 8) throw "too low";
+//    if(x > 10) throw{
+//       message: "Too Hight",
+//       name: "HightError"
+//    }
+
 //  }
 //  catch(err) {
-//    // console.log(err.message);
-
-//    document.getElementById("demo").innerHTML = err.message;
+//    console.log(err);
+//  }
+//  finally {
+//    console.log("This is errors handler");
 //  }
 
 
+/**-
+ * --------------------------------------------
+ * Class #48
+ * ----------------------------------------------
+ * JavaScript  Scope
+ *
+ */
 
+
+//  function myFunction() {
+//    let carName = "Volvo";   // Function Scope
+//    console.log(carName);
+//  }
+
+// myFunction()
+
+/**-
+ * --------------------------------------------
+ * Class #49
+ * ----------------------------------------------
+ * JavaScript  Hoisting
+ *
+ */
+
+//  var x = 5; // Initialize x
+
+//  console.log(x, y);
+ 
+//  var y = 7; // Initialize y
+
+
+
+/**-
+ * --------------------------------------------
+ * Class #50
+ * ----------------------------------------------
+ * JavaScript  use start
+ *
+ */
+
+/**
+Why Strict Mode?
+1/ Strict mode makes it easier to write "secure" JavaScript.
+
+2/ Strict mode changes previously accepted "bad syntax" into real errors.
+
+3/ As an example, in normal JavaScript, mistyping a variable name creates a new global variable. In strict mode, 
+this will throw an error, making it impossible to accidentally create a global variable.
+
+4/ In normal JavaScript, a developer will not receive any error feedback assigning values to non-writable properties.
+
+5/ In strict mode, any assignment to a non-writable property, a getter-only property, a non-existing property,
+a non-existing variable, or a non-existing object, will throw an error.
+ */
+
+
+/**-
+ * --------------------------------------------
+ * Class #51
+ * ----------------------------------------------
+ * JavaScript  this keyword
+ *
+ */
+
+// const person = {
+//    firdtNmae: "Aminul",
+//    lastName : "Islam",
+//    id       : "A555",
+//    fullName : function(){
+//       return this.firdtNmae + " " + this.lastName;
+//    }
+// }
+// console.log(person.fullName());
+
+
+/**-
+ * --------------------------------------------
+ * Class #52
+ * ----------------------------------------------
+ * JavaScript  Arrow Function
+ *
+ */
+//  var hello;
+
+//  hello = function() {
+//    document.getElementById("demo").innerHTML += this;
+//  }
+ 
+//  //The window object calls the function:
+//  window.addEventListener("load", hello);
+ 
+//  //A button object calls the function:
+//  document.getElementById("btn").addEventListener("click", hello);
+
+
+/**-
+ * --------------------------------------------
+ * Class #53
+ * ----------------------------------------------
+ * JavaScript  class
+ *
+ */
+
+//  class Person{
+//    constructor(name, age){
+
+//     this.name = name;
+//     this.age = age;
+//    }
+//    showDisplay() {
+//       console.log(`${this.name} is typing on keyboard`);
+//    }
+// }
+
+// const person1 = new Person("Farhana", 12);
+// const person2 = new Person("Aminul", 26);
+
+
+// person1.showDisplay()
+// person2.showDisplay()
+
+
+
+/**-
+ * --------------------------------------------
+ * Class #54
+ * ----------------------------------------------
+ * JavaScript  JSON
+ *
+ */
+
+
+
+
+
+
+//  let text = '{ "employees" : [' +
+//  '{ "firstName":"John" , "lastName":"Doe" },' +
+//  '{ "firstName":"Anna" , "lastName":"Smith" },' +
+//  '{ "firstName":"Peter" , "lastName":"Jones" } ]}';
+
+//  const obj = JSON.parse(text);
+//  console.log(obj);
 
