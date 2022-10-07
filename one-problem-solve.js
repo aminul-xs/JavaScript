@@ -11,6 +11,7 @@
 // }
 // console.log(getRandomNumber(1, 6));
 
+
 /**-
  * --------------------------------------------
  * Problem Solving #02
@@ -108,7 +109,8 @@
 // }
 
 // let vowelsResult = isCountOfVowels("JavaScript Program to Count the Number of Vowels in a String")
-// // console.log(vowelsResult);
+// console.log(vowelsResult);
+
 
 /**-
  * --------------------------------------------
@@ -117,6 +119,7 @@
  * আমরা কিভাবে ডুপ্লিকেট নাম্বার বের করে আনতে পারি ?
  *
  */
+
 
 // const numbers = [1, 3, 3, 5 ,4 ,4, 6, 7,8, 10, 40, 40]
 
@@ -146,6 +149,7 @@
 //    const musicTypes = document.selectForm.musicTypes
 // })
 
+
 /**-
  * --------------------------------------------
  * Problem Solving #08
@@ -153,6 +157,7 @@
  * কিভাবে dynamically জাভাস্ক্রিপ্টে প্রেমিক বা বান্ধবী প্রেমময় উত্তর খুঁজে পেতে পারি ?
  *
  */
+
 
 // let girlFriendFastName = "x";
 // let girlFriendLastName = "y";
@@ -172,6 +177,7 @@
 
 // // A boyfriend wants the girl to love me and respect the boyfriend a lot
 
+
 // function boyFriendLoveResult() {
 //   let isProposalSpecial = "";
 //   love.forEach(isProposal);
@@ -183,6 +189,7 @@
 //   isProposalAccept = isProposalSpecial + boyFriendFullName.toUpperCase();
 //   console.log(isProposalAccept);
 // }
+
 
 // // A girlfriend wants the boy to leave my life, and remove the boy from life forever.
 

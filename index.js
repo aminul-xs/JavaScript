@@ -10,10 +10,17 @@
 
 
 
+// let a = 10;
+// let b = 2;
 
+// let c = a ** b;
+// console.log(c);
 
-
-
+// console.log(
+//    typeof 20 + "\n",
+//    typeof "John" + "\n",
+//    typeof "John Doe"    
+// );
 
 
 /**-
@@ -21,7 +28,7 @@
  * Class #12
  * ----------------------------------------------
  * JavaScript Functions
- *
+ * 
  */
 
 // function sleep(name){
@@ -1300,7 +1307,6 @@ a non-existing variable, or a non-existing object, will throw an error.
  * JavaScript  JSON
  *
  */
-
 
 
 
