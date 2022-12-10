@@ -216,3 +216,14 @@
 
 
 
+// let regEx = /(https?:\/\/)/;
+// let inputUrl = 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/get';
+
+// // console.log(inputUrl.test('https'));
+
+// // const str = 'table football';
+
+// const regex = new RegExp('https://');
+// // const globalRegex = new RegExp('foo*', 'g');
+
+// console.log(regex.test(inputUrl));

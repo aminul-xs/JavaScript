@@ -118,7 +118,7 @@
  * --------------------------------------------
  * Class #66
  * ----------------------------------------------
- * JavaScript Object Display
+ * JavaScript Object accessors
  *
  */
 
@@ -130,7 +130,7 @@
 //     //   return this.firstName + ' ' + this.lastName;
 //     // }
 // };
-  
+
 
 // Object.defineProperty(person, 'fullName',{
 //     get () {
@@ -148,7 +148,7 @@
 //       return this.language = l
 //     }
 // };
-  
+
 // person.lang = "bn"
 // console.log(person);
 
@@ -156,57 +156,201 @@
  * --------------------------------------------
  * Class #67
  * ----------------------------------------------
- * JavaScript Object Display
+ * JavaScript Object contactor
  *
  */
 
 
-// Write Javascript code here
-// var arr = [
-//     { name: "ram", age: "20" },
-//     { name: "sam", age: "21" },
-//     { name: "tom", age: "19" },
-//     { name: "harry", age: "19" }
-// ];
-  
-// var index;
-
-// arr.some(function (entry, i) {
-//     if (entry.name == "ram") {
-//         index = i;
-//         return true;
+// function Persion(first, last, age) {
+//     this.firstName = first;
+//     this.lastName = last;
+//     this.age = age;
+//     this.fullName = () => {
+//         return this.firstName + " " + this.lastName;
 //     }
-// });
-  
-// console.log(index);
+//     // this.fullNmae = () => {
+//     //     return this.firstName + ' ' + this.lastName;
+//     // }
+// }
+
+// const aminul = new Persion('Aminul', 'Islam', 24);
+// aminul.nationality = "English";
 
 
-let number = [12, 13, 14, 15, 16];
+// console.log(aminul);
+
+/**-
+ * --------------------------------------------
+ * Class #68
+ * ----------------------------------------------
+ * JavaScript Object prototypes
+ *
+ */
+
+// function Persion(first, last, age) {
+//     this.firstName = first;
+//     this.lastName = last;
+//     this.age = age;
+//     this.fullName = () => {
+//         return this.firstName + " " + this.lastName;
+//     }
+//     // this.fullNmae = () => {
+//     //     return this.firstName + ' ' + this.lastName;
+//     // }
+// }
 
 
-// let largest = number.sort((a, b) => a - b).reverse()[0];
-// console.log(largest);
+// const aminul = new Persion('Aminul', 'Islam', 24);
+// const sharif = new Persion('Aminul', 'Islam', 24);
+// Persion.prototype.nationality = "English";
+// console.log(sharif);
+// console.dir(typeof sharif.nationality);
 
 
-function checkPalindrome(inputString) {
-    if(inputString.length == 1){
-        return true;
-    }else{
-        var i = 0;
-        var j = inputString.length -1;
-        while(i < j){
-            if(inputString[i] != inputString[j]){
-                return 'No';
-            }
-            i++;
-            j--;
-        }
-    }
-    return 'Yes';
-}
 
-console.log(checkPalindrome('number'));
-console.log(checkPalindrome('rebmun'));
-console.log(checkPalindrome('noon'));
-console.log(checkPalindrome('moom'));
+// String.prototype.helloOf = function () {
+//     return this.toUpperCase()
+// }
+
+// let x = 'Bangladesh';
+
+// console.log(x.helloOf());
+
+// function Persion(name, age) {
+//     let person = Object.create(Persion.prototype);
+
+//     person.name = name;
+//     person.age = age;
+
+//     return person;
+// };
+
+// function Persion(name, age) {
+//     this.name = name;
+//     this.age = age;
+
+// };
+// Persion.prototype = {
+//     eat() {
+//         console.log('Person is eating');
+//     },
+//     sleep() {
+//         console.log('Persion is sleeping');
+//     },
+//     play() {
+//         console.log('Persion is playing');
+//     }
+// };
+
+// const aminul = new  Persion('Aminul Islam', 24);
+// const tamim = new Persion('Tamim Hossain', 23);
+// aminul.play();
+// aminul.sleep()
+
+
+// const captain = {
+//     name: "Aminul",
+//     age: 24,
+//     country: 'Bangladesh',
+// }
+
+// const player = Object.create(captain);
+// console.log(player.country);
+
+
+/**-
+ * --------------------------------------------
+ * Class #69
+ * ----------------------------------------------
+ * JavaScript Object Iterables
+ *
+ */
+
+// let arr = { one : 1, two: 2, three: 3,}
+
+// for (let index in arr) {
+//    console.log(index.valueOf());
+    
+// }
+
+// let arrs = [1, 2, 3, 4, 5]
+
+// const myNumbers ={}
+
+// myNumbers[Symbol.iterator] = function () {
+//     let n = 0;
+//     let done = false;
+
+//     return {
+//         next() {
+//             n += 5;
+//             if (n === 100) {
+//                 done = true;
+//             }
+//             return {
+//                 value: n,
+//                 done: done
+//             }
+//         }
+//     }
+// }
+
+// for (let num of myNumbers) {
+//     console.log(num);
+// }
+
+/**-
+ * --------------------------------------------
+ * Class #70
+ * ----------------------------------------------
+ * JavaScript Sets
+ *
+ */
+
+// const letters = new Set(["a", "b", "c", 'c']);
+
+// console.log(letters.values());
+
+
+/**-
+ * --------------------------------------------
+ * Class #72
+ * ----------------------------------------------
+ * JJavaScript Object Maps
+ *
+ */
+
+// Set Map Values
+// const fruits = new Map([
+//     ["apples", 500],
+//     ["bananas", 300],
+//     ["oranges", 200]
+//   ]);
+
+
+// console.log(fruits);
+
+
+// Create Objects
+// const apples = {name: 'Apples'};
+// const bananas = {name: 'Bananas'};
+// const oranges = {name: 'Oranges'};
+
+// // Create a Map
+// const fruits = new Map();
+
+// // Add new Elements to the Map
+// fruits.set(apples, 500);
+// fruits.set(bananas, 300);
+// fruits.set(oranges, 200);
+
+// console.log(fruits.get(apples));
+
+/**-
+ * --------------------------------------------
+ * Class #72
+ * ----------------------------------------------
+ * JavaScript Function Definitions
+ *
+ */
 
