@@ -83,62 +83,88 @@ console.log(` Print A ${printA}`);
 
 
 
-(function ($) {
-   'use strict';
+// (function ($) {
+//    'use strict';
 
-   var imJs = {
-      m: function (e) {
-         imJs.d();
-         imJs.methods();
-      },
-      d: function (e) {
-         this._window = $(window),
-            this._document = $(document),
-            this._body = $('body'),
-            this._html = $('html')
-      },
-      methods: function (e) {
-         imJs.backToTopInit();
-      },
-      // done
+//    var imJs = {
+//       m: function (e) {
+//          imJs.d();
+//          imJs.methods();
+//       },
+//       d: function (e) {
+//          this._window = $(window),
+//             this._document = $(document),
+//             this._body = $('body'),
+//             this._html = $('html')
+//       },
+//       methods: function (e) {
+//          imJs.backToTopInit();
+//       },
+//       // done
 
-      backToTopInit: function () {
-         $(document).ready(function () {
-            "use strict";
+//       backToTopInit: function () {
+//          $(document).ready(function () {
+//             "use strict";
 
-            var progressPath = document.querySelector('.progress-wrap path');
-            var pathLength = progressPath.getTotalLength();
-            progressPath.style.transition = progressPath.style.WebkitTransition = 'none';
-            progressPath.style.strokeDasharray = pathLength + ' ' + pathLength;
-            progressPath.style.strokeDashoffset = pathLength;
-            progressPath.getBoundingClientRect();
-            progressPath.style.transition = progressPath.style.WebkitTransition = 'stroke-dashoffset 10ms linear';
-            var updateProgress = function () {
-               var scroll = $(window).scrollTop();
-               var height = $(document).height() - $(window).height();
-               var progress = pathLength - (scroll * pathLength / height);
-               progressPath.style.strokeDashoffset = progress;
-            }
-            updateProgress();
-            $(window).scroll(updateProgress);
-            var offset = 50;
-            var duration = 550;
-            jQuery(window).on('scroll', function () {
-               if (jQuery(this).scrollTop() > offset) {
-                  jQuery('.progress-wrap').addClass('active-progress');
-               } else {
-                  jQuery('.progress-wrap').removeClass('active-progress');
-               }
-            });
-            jQuery('.progress-wrap').on('click', function (event) {
-               event.preventDefault();
-               jQuery('html, body').animate({ scrollTop: 0 }, duration);
-               return false;
-            })
+//             var progressPath = document.querySelector('.progress-wrap path');
+//             var pathLength = progressPath.getTotalLength();
+//             progressPath.style.transition = progressPath.style.WebkitTransition = 'none';
+//             progressPath.style.strokeDasharray = pathLength + ' ' + pathLength;
+//             progressPath.style.strokeDashoffset = pathLength;
+//             progressPath.getBoundingClientRect();
+//             progressPath.style.transition = progressPath.style.WebkitTransition = 'stroke-dashoffset 10ms linear';
+//             var updateProgress = function () {
+//                var scroll = $(window).scrollTop();
+//                var height = $(document).height() - $(window).height();
+//                var progress = pathLength - (scroll * pathLength / height);
+//                progressPath.style.strokeDashoffset = progress;
+//             }
+//             updateProgress();
+//             $(window).scroll(updateProgress);
+//             var offset = 50;
+//             var duration = 550;
+//             jQuery(window).on('scroll', function () {
+//                if (jQuery(this).scrollTop() > offset) {
+//                   jQuery('.progress-wrap').addClass('active-progress');
+//                } else {
+//                   jQuery('.progress-wrap').removeClass('active-progress');
+//                }
+//             });
+//             jQuery('.progress-wrap').on('click', function (event) {
+//                event.preventDefault();
+//                jQuery('html, body').animate({ scrollTop: 0 }, duration);
+//                return false;
+//             })
 
-         });
+//          });
 
-      },
-   }
-   imJs.m();
-})(jQuery, window)
+//       },
+//    }
+//    imJs.m();
+// })(jQuery, window)
+
+
+let old_data = [
+   {
+       value: 'item',
+       text: "do_not_import",
+       custom: null,
+       updates : true, 
+       removes : true,        
+   },
+   {
+       value: 'additional_image',
+       text: "additional_image_mapped",
+       custom: null,
+       updates : true, 
+       removes : true,        
+   },
+   {
+       value: 'brand',
+       text: "brand_mapped",
+       custom: null,
+       updates : true, 
+       removes : true,        
+   },
+];
+

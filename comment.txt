@@ -12,5 +12,15 @@ dep:
 Javascript return
 javascript loop
 javascript oparator
+javascript pototype
+javascript object
 funcition Closures
+
+react dep:
+
+Object
+function
+class
+event method
+dom
 

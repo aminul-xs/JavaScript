@@ -1,2 +1,18 @@
 
 1/ wthat is map/set in JavaScript ?
+2/ what is javascript batch update ? ex: loop or anything
+
+
+
+
+
+
+
+
+
+
+
+
+#react :
+
+

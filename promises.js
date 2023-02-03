@@ -45,7 +45,7 @@
 * --------------------------------------------
 * Class #83
 * ----------------------------------------------
-* JavaScript Promises
+* JavaScript callback function
 *
 */
 
@@ -233,85 +233,85 @@
 */
 
 
-const paymentSuccess = false;
-const marks = 91;
+// const paymentSuccess = false;
+// const marks = 91;
 
-function enroll() {
-    console.log('Course enrollment is in progress');
+// function enroll() {
+//     console.log('Course enrollment is in progress');
 
-    const promise = new Promise(function (resolve, reject) {
-        setTimeout(function () {
-            if (paymentSuccess) {
-                resolve();
-            } else {
-                reject('Payment Failed');
-            }
-        }, 2000)
-    });
-    return promise;
-}
+//     const promise = new Promise(function (resolve, reject) {
+//         setTimeout(function () {
+//             if (paymentSuccess) {
+//                 resolve();
+//             } else {
+//                 reject('Payment Failed');
+//             }
+//         }, 2000)
+//     });
+//     return promise;
+// }
 
 
-function progresss() {
-    console.log('Course on Progress .......');
+// function progresss() {
+//     console.log('Course on Progress .......');
 
-    const promise = new Promise(function (resolve, reject) {
-        setTimeout(function () {
-            if (marks >= 80) {
-                resolve()
-            } else {
-                reject('You could get enough marks to get the certificated')
-            }
-        }, 5000)
-    });
+//     const promise = new Promise(function (resolve, reject) {
+//         setTimeout(function () {
+//             if (marks >= 80) {
+//                 resolve()
+//             } else {
+//                 reject('You could get enough marks to get the certificated')
+//             }
+//         }, 5000)
+//     });
 
-    return promise;
-}
+//     return promise;
+// }
 
-function getCertificated() {
-    console.log('Preparing your certificate');
+// function getCertificated() {
+//     console.log('Preparing your certificate');
 
-    const promise = new Promise(function (resolve, reject) {
-        setTimeout(function () {
-            if (marks >= 90) {
-                resolve();
-            } else {
-                reject('Congress!, You got the certificate');
-            }
+//     const promise = new Promise(function (resolve, reject) {
+//         setTimeout(function () {
+//             if (marks >= 90) {
+//                 resolve();
+//             } else {
+//                 reject('Congress!, You got the certificate');
+//             }
 
-        }, 1000)
-    });
-    return promise;
-}
+//         }, 1000)
+//     });
+//     return promise;
+// }
 
-function readyToInternship() {
-    console.log('Process your internship .....');
+// function readyToInternship() {
+//     console.log('Process your internship .....');
 
-    const promise = new Promise((resolve, reject) => {
-        setTimeout(function () {
-            resolve('Congress.!, You are selected 6 month internship');
-        }, 500)
-    });
-    return promise;
-}
+//     const promise = new Promise((resolve, reject) => {
+//         setTimeout(function () {
+//             resolve('Congress.!, You are selected 6 month internship');
+//         }, 500)
+//     });
+//     return promise;
+// }
 
-async function course() {
-    try {
-        await enroll();
-        await progresss();
-        await getCertificated();
-        const massage = await readyToInternship();
-        console.log(massage);
+// async function course() {
+//     try {
+//         await enroll();
+//         await progresss();
+//         await getCertificated();
+//         const massage = await readyToInternship();
+//         console.log(massage);
 
-    } catch (error) {
-        console.log(error);
-    }
+//     } catch (error) {
+//         console.log(error);
+//     }
 
-    // await enroll();
-    // await progresss();
-    // await getCertificated();
-    // const massage = await readyToInternship();
-    // console.log(massage);
-}
-course();
+//     // await enroll();
+//     // await progresss();
+//     // await getCertificated();
+//     // const massage = await readyToInternship();
+//     // console.log(massage);
+// }
+// course();
 
