@@ -118,3 +118,4 @@
 // const courseData = dataCollection(apiUrl).then(result => {
 //     return result;
 // });
+
