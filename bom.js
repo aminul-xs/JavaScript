@@ -111,7 +111,38 @@
 * --------------------------------------------
 * Class #108
 * ---------------------------------------------
-* JavaScript cookies
+* JavaScript timing
 *
 */
 
+// setInterval(myTimer, 1000);
+
+// function myTimer() {
+//   const d = new Date();
+//   document.getElementById("demo").innerHTML = d.toLocaleTimeString();
+// }
+
+/**
+* --------------------------------------------
+* Class #109
+* ---------------------------------------------
+* JavaScript Cookie 
+*
+*/
+
+function setCookie(cname, cvalue, exdays) {
+    const d = new Date();
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    let expires = "expires=" + d.toUTCString();
+    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+
+}
+
+
+function getCookie(cname) {
+    console.log('xx', document.cookie);
+    console.log(cname);
+}
+
+
+// function checkCookie() { }

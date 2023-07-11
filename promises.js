@@ -4,24 +4,37 @@
 * Class #81
 * ----------------------------------------------
 * JavaScript Callbacks
+* আমি তমাকে পরে ডাকব।।
 *
 */
 
-// function myDisplayer(some) {
-//     console.log(some);
-// }
+//ধরুন আপনি একটি গণনা করতে চান, এবং তারপর ফলাফল প্রদর্শন করুন।
 
-// function myCalculator(num1, num2, callback) {
+
+function displayer(some) {
+    console.log(some);
+}
+
+// function myCalculator(num1, num2) {
+//     let sum = num1 + num2;
+//     // displayer(sum)
+//     return sum;
+//   }
+  
+// let result = myCalculator(5, 5);
+// displayer(result);
+
+
+// //function reference
+// function calculator(num1, num2, callback) {
+    
 //     let sum = num1 + num2;
 //     if (callback) callback(sum)
-
 //     return sum
+
 // }
 
-// let result = myCalculator(5, 5);
-
-
-// myDisplayer(result);
+// let result = calculator(5, 5, displayer);
 
 
 
