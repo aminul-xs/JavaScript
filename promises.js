@@ -63,64 +63,64 @@ function displayer(some) {
 */
 
 
-// const paymentSuccess = true;
-// const marks = 91;
+const paymentSuccess = true;
+const marks = 80;
 
-// function enroll(callbacke) {
-//     console.log('Course enrollment is in progress');
+function enroll(callbacke) {
+    console.log('Course enrollment is in progress');
 
-//     setTimeout(function () {
-//         if (paymentSuccess) {
-//             callbacke();
-//         } else {
-//             console.log('Payment Failed');
-//         }
-//     }, 2000)
-// }
-
-
-//    function progresss(callback) {
-//     console.log('Course on Progress .......');
-//     setTimeout(function () {
-//     if (marks >= 80) {
-//          callback()
-//     } else {
-//         console.log('You could get enough marks to get the certificated')
-//     }
-//     }, 5000)
-// }
-
-// function getCertificated(callback) {
-//     console.log('Preparing your certificate');
-
-//     setTimeout(function () {
-//         if (marks >= 90) {
-//             callback();
-//         } else {
-//             console.log('Congress!, You got the certificate');
-//         }
-
-//     }, 1000)
-// }
-
-// function readyToInternship() {
-//     console.log('Process your internship .....');
-
-//     setTimeout(function () {
-//         console.log('Congress.!, You are selected 6 month internship');
-//     }, 500)
-// }
+    setTimeout(function () {
+        if (paymentSuccess) {
+            callbacke();
+        } else {
+            console.log('Payment Failed');
+        }
+    }, 2000)
+}
 
 
+   function progresss(callback) {
+    console.log('Course on Progress .......');
+    setTimeout(function () {
+    if (marks >= 80) {
+         callback()
+    } else {
+        console.log('You could get enough marks to get the certificated')
+    }
+    }, 3000)
+}
 
-// enroll(function () {
-//     progresss(function () {
-//         getCertificated(function () {
-//             readyToInternship()
-//         })
-//     })
-// });
-// progresss(getCertificated);
+function getCertificated(callback) {
+    console.log('Preparing your certificate');
+
+    setTimeout(function () {
+        if (marks >= 90) {
+            callback();
+        } else {
+            console.log('Congress!, You got the certificate');
+        }
+
+    }, 1000)
+}
+
+function readyToInternship() {
+    console.log('Process your internship .....');
+
+    setTimeout(function () {
+        console.log('Congress.!, You are selected 6 month internship');
+    }, 500)
+}
+
+
+
+enroll(function () {
+    progresss(function () {
+        getCertificated(function () {
+            readyToInternship()
+        })
+    })
+});
+// progresss(getCertificated) // other example last function call;
 // getCertificated()
 
 
